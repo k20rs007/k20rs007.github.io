@@ -1,0 +1,64 @@
+@charset "utf-8";
+* {
+    margin:0; padding:0;
+}
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  filter: grayscale;
+  background: -moz-linear-gradient(left, #355c7d, #6c5b7d 25%, #c06c84);
+  background: -webkit-linear-gradient(left,#355c7d,#6c5b7d 25%,#c06c84); 
+  background: linear-gradient(left,#355c7d,#6c5b7d 25%,#c06c84);
+  font-family: "M PLUS 1p";
+  color: #ffff;
+}
+section {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  filter: grayscale;
+  background: -moz-linear-gradient(left, #355c7d, #6c5b7d 25%, #c06c84);
+  background: -webkit-linear-gradient(left,#355c7d,#6c5b7d 25%,#c06c84); 
+  background: linear-gradient(left,#355c7d,#6c5b7d 25%,#c06c84);
+  font-family: "M PLUS 1p";
+  color: #ffff;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+footer{
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  background: -moz-linear-gradient(left, #355c7d, #6c5b7d 25%, #c06c84);
+  background: -webkit-linear-gradient(left,#355c7d,#6c5b7d 25%,#c06c84); 
+  background: linear-gradient(left,#355c7d,#6c5b7d 25%,#c06c84);
+  font-family: "M PLUS 1p";
+  color: #ffff;
+}
+#profile{
+  color: #ffff;
+}
+#product{
+  color: #ffff;
+}
+a{
+  color: #ffff;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
