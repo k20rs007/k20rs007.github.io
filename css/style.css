@@ -1,0 +1,169 @@
+@charset "utf-8";
+* {
+    margin:0; padding:0;
+}
+header {
+  background-color: rgb(220, 217, 217);
+  width: 100%;
+  font-family: "M PLUS 1p";
+  padding: 30px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+}
+
+body {
+  width: 100%;
+  font-family: "M PLUS 1p";
+}
+
+footer{
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  font-family: "M PLUS 1p";
+  text-align: center;
+}
+
+.container {
+  margin: 0 20%;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+.item img {
+  height: 70%;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 288px;
+  height: auto;
+}
+
+.card_imgframe_og3 {
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url("../img/og3.png");
+}
+
+.card_imgframe_magicwater {
+  width: 100%;
+  height: auto;
+  padding-top: 56.25%;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url("../img/magicwater.jpg");
+}
+
+.card_textbox {
+  width: 100%;
+  height: auto;
+  padding: 20px 18px;
+  box-sizing: border-box;
+}
+
+.card_titletext {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.card_overviewtext {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.card-skin{
+  overflow: hidden;
+  border-radius: 8px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgba(215, 213, 206, 0.678);
+  background-color: rgba(255, 255, 255, 0.731);
+  margin-right: 5%;
+}
+
+body {
+  background: white;
+  background-size: 30px 30px;
+}
+
+.table_skills{
+  padding:auto;
+  margin: auto;
+  width: 550px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+
+.table_profile{
+  padding:auto;
+  margin: auto;
+  width: 300px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+table th{
+  padding: 10px 10px;
+  text-align: center;
+}
+
+table td {
+  padding: 10px 10px;
+  text-align: left;
+}
+
+table tr:nth-child(even){
+  background-color: rgb(255, 255, 255)
+}
+
+table tr:nth-child(odd){
+  background-color: rgb(245, 244, 244)
+}
+
+.title {
+  margin: 10px;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.titlepadding {
+  padding: 2.5%;
+}
+
+.titlepadding_skills {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
