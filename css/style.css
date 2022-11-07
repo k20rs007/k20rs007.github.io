@@ -12,6 +12,7 @@ header {
 body {
   width: 100%;
   font-family: "M PLUS 1p";
+  font-size: 1.125rem;
 }
 
 footer{
@@ -23,18 +24,18 @@ footer{
 }
 
 .container {
-  margin: 0 20%;
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;
+  margin-left: 10%;
 }
 
 .item {
+  display: flex;
+  align-items: center;
   width: auto;
   height: auto;
-  margin: 10px;
-  padding: 10px;
 }
 
 .item img {
@@ -56,7 +57,7 @@ footer{
 }
 
 .card {
-  width: 288px;
+  width: 70%;
   height: auto;
 }
 
@@ -86,13 +87,13 @@ footer{
 }
 
 .card_titletext {
-  font-size: 25px;
+  font-size: 1.125rem;
   font-weight: bold;
   line-height: 125%;
 }
 
 .card_overviewtext {
-  font-size: 12px;
+  font-size: 1.125rem;
   line-height: 150%;
 }
 
@@ -149,10 +150,10 @@ table tr:nth-child(odd){
 }
 
 .title {
-  margin: 10px;
+  margin: 3%;
   width: 90%;
   height: auto;
-  padding: 10px;
+  padding: 3%;
 }
 
 .textcenter {
@@ -160,10 +161,14 @@ table tr:nth-child(odd){
 }
 
 .titlepadding {
-  padding: 2.5%;
+  margin: 2.5%;
+}
+
+.titlemargin_profile {
+  margin-top: 3%;
 }
 
 .titlepadding_skills {
-  padding-top: 3%;
+  margin-top: 3%;
   padding-bottom: 1%;
 }
