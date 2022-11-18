@@ -80,6 +80,15 @@ footer{
   background-image: url("../img/magicwater.jpg");
 }
 
+.card_imgframe_fallprevention {
+  width: 100%;
+  height: auto;
+  padding-top: 171.25%;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url("../img/fall_prevention.jpg");
+}
+
 .card_textbox {
   width: 100%;
   height: auto;
